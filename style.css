@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+}
+.overview{
+    background-image: url(./Images/WhatsApp\ Image\ 2022-05-22\ at\ 9.16.12\ PM\ \(1\).png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 680px;
+    color: #ffffff;
+    padding: 16px;
+    position: relative;
+}
+
+.overview > h1{
+    font-weight: bolder;
+    color: #ffffff;
+    font-size: 40px;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+}
+
+h2 {
+  text-align: center;
+  color: #19b84c; 
+  font-size: 40px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.plan-title{
+    color: #0e4f1f;
+    text-align: center;
+    font-size: 32px;
+}
+
+.plans{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.plan{
+    display: inline-block;
+    width: 30%;
+    background-color: #d5ffdc;
+    padding: 16px;
+    margin: 8px;
+    margin-top: 30px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.plan:hover{
+    transform: translateY(-10px);
+}
+
+.plan-highlighted{
+    background-color: #19b84c;
+    color: #ffffff;
+    box-shadow: 4px 4px 2px 2px rgba(0, 0, 0, 0.5);
+    height: 440px;
+    margin-top: 10px;
+}
+
+.plan-highlighted:hover{
+    transform: translateY(-40px);
+
+}
+
+.plan-highlighted > .plan-title{
+    color: #ffffff;    
+}
+
+
+.plan-features{
+    list-style: none;
+    padding: 0;
+}
+
+.plan-features li{
+    margin: 8px 0;
+}
+
+.recommended{
+    text-transform: uppercase;
+    color: #19b84c;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 4px 4px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+}
+
+button{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #0e4f1f;
+    border-radius: 8px;
+    padding: 8px;
+    font-weight: bold;
+    border: 2px solid;
+}
+
+button:hover{
+    color: #0e4f1f;
+    background-color: #ffffff;
+}
+
+.key-features-title{
+    text-align: center;
+    color: #ffffff;
+    padding: 30px;
+    font-size: 40px;
+
+}
+#key-features{
+    background-color: rgba(255, 0, 0, 0.7);
+    margin-top: 20px;
+}
+.keyfeature-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  0 40px;
+    padding: 40px;
+
+}
+
+.keyfeature-list li{
+    list-style: none;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.img{
+    border: 1px solid blueviolet;
+    border-radius: 90px;
+    height: 120px;
+    width: 120px;
+}
+
+
+
